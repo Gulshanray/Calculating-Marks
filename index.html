@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="index.css">
+ 
+<script type="text/javascript" src="index.js"> </script>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+<legend> Marks</legend>
+Maths:<input type="number" id="f" ><br><br>
+English:<input type="number" id="g"><br><br>
+Hindi:<input type="number" id="h" ><br><br>
+Science:<input type="number" id="i" ><br><br>
+IT:<input type="number" id="j"><br><br>
+<button onclick=" return calculate()"> Calculate </button>
+        </fieldset>
+    </form>
+
+<div class="l">
+   <table>
+    <tr>
+        <td> Total Marks:</td>
+        <td>500</td>
+    </tr>
+    <tr>
+        <td> Obtained Marks:</td>
+        <td id="obtain"></td>
+    </tr>
+    <tr>
+        <td>Percentage:</td>
+        <td id="per"></td>
+    </tr>
+    <tr>
+        <td>Grade:</td>
+        <td id="grade"></td>
+    </tr>
+    <tr>
+        <td> Remarks:</td>
+        <td id="remarks"></td>
+    </tr>
+   </table>
+</div>
+
+</body>
+</html>

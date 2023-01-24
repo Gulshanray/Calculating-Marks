@@ -1,0 +1,41 @@
+
+body{
+    background-color: aqua;
+}
+form{
+    background-color: blueviolet;
+    margin-top:15%;
+    border-radius: 40px;
+    margin-left: 28%;
+    margin-right: 20%;
+    text-align: center;
+}
+fieldset{
+    border-radius: 40px;
+
+}
+legend{
+    text-align: center;
+}
+.l{
+    margin-top: 3%;
+    margin-left: 45%;
+    font-size: large;
+    background-color: brown;
+      margin-right: 35%;
+      text-align: left;
+}
+table
+{
+border: 1px solid black;
+border-radius: 2px;
+margin-left: 15%;
+
+}
+td
+{
+padding: 2px;
+border: 1px solid white;
+
+
+}
